@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+.navbar{
+ 
+   
+
+  background-color:rgba(0,155,255,1);
+  
+}
+.card{
+  width: 350px;
+  height: 500px;
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+.card-footer{
+  margin-top: 10%;
+}
+.page-footer{
+  margin-top: 1%;
+}
+#con{
+  margin-top: 4%;
+}
+.btn{
+  background-color:transparent ;
+}
+#search{
+  
+  border: 1px solid black;
+}
+@media screen and (max-width: 1366px) {
+  #con{
+    margin-top: 6%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #con{
+    margin-top: 20%;
+  }
+  .btn{
+    width: 350px;
+  }
+}
+
+
+
+
