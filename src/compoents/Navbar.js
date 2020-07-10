@@ -16,28 +16,28 @@ export default class Navbar extends Component {
   <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
     <ul class="navbar-nav mr-auto">
     <li class="nav-item">
-        <a class="nav-link waves-effect waves-light" ahref='#'>
+        <span class="nav-link waves-effect waves-light" >
           Trending
-        </a>
+        </span>
       </li>
       <li class="nav-item">
-        <a class="nav-link waves-effect waves-light " ahref='#'>
+        <span class="nav-link waves-effect waves-light " ahref='#'>
           Rise Money
-        </a>
+        </span>
       </li>
     
     </ul>
     <ul class="navbar-nav ml-auto ">
      
       <li class="nav-item dropdown">
-      <a class="nav-link waves-effect waves-light " ahref='#'>
+      <span class="nav-link waves-effect waves-light " ahref='#'>
           Login
-        </a>
+        </span>
       </li>
       <li class="nav-item dropdown">
-      <a class="nav-link waves-effect waves-light " ahref='#'>
+      <span class="nav-link waves-effect waves-light " ahref='#'>
           Sign up
-        </a>
+        </span>
       </li>
     </ul>
   </div>

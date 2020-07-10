@@ -4,7 +4,7 @@ export default class Containers extends Component {
      constructor(){
           super()
           this.state={
-               value:0
+               value:15000
           }
           this.data = this.data.bind(this);
      }
@@ -23,7 +23,7 @@ export default class Containers extends Component {
 
   <div class="view overlay">
     <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
-      alt="Card image cap"/>
+      alt=''/>
     <a href="#!">
       <div class="mask rgba-white-slight"></div>
     </a>
@@ -33,13 +33,12 @@ export default class Containers extends Component {
   <div class="card-body">
 
     
-    <h4 class="card-title">Card title</h4>
+    <h4 class="card-title">MYCROFT AI</h4>
    
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-      content.</p>
+    <p class="card-text">This Private Voice Assistant.For Tens of Thousands of users and Dozens</p>
     
      <label for="customRange1 ">${this.state.value} Of $30000</label>
-     <input type="range" class="custom-range" id="customRange1"  min="0"  max="30000" onChange={this.data}/>
+     <input type="range" class="custom-range" id="customRange1"  min="0" value="15000"  max="30000" onChange={this.data}/>
 
   </div>
          
