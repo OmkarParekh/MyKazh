@@ -12,7 +12,7 @@ export default class search extends Component {
                     <i class="fas fa-search ml-5" aria-hidden="true"></i>
                     <input class="form-control form-control-lg ml-3 w-50 mr-auto" type="text" placeholder="Search"
                     aria-label="Search"/>
-                    <h5 class='font-weight-bold mr-5'>Expert Advice</h5>
+                    <h5 class='font-weight-bold mr-5' id='expert'>Expert Advice</h5>
                     </form>
                     
                     <button type="button" class="btn text-dark"><img class='img-fluid' src={logo} alt=''/></button>

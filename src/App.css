@@ -114,11 +114,25 @@
   }
   .btn{
     width: 200px;
-    height:75px
+    height:75px;
+    margin-left: 20%;
   }
   .img-thumbnail{
     width: 100px;
     
+  }
+  .card{
+    width:310px
+  }
+  .card-deck{
+   margin-left: 6%;
+  }
+  #conda{
+    margin-left: -5%;
+    
+  }
+  #expert{
+    margin-top: 5%;
   }
 }
 
